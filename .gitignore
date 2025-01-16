@@ -1,0 +1,53 @@
+node_modules
+.env
+
+# Hardhat files
+/cache
+/artifacts
+
+/contracts/uniswapv2/artifacts
+/contracts/uniswapv2/libraries/artifacts
+/contracts/uniswapv2/interfaces/artifacts
+
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage
+/coverage.json
+
+# subgraph - Graph CLI generated artifacts
+/subgraph/build
+/subgraph/generated
+
+# subgraph - Dependency directories
+/subgraph/node_modules/
+/subgraph/jspm_packages/
+
+# subgraph - Logs
+/subgraph/logs
+/subgraph/*.log
+/subgraph/npm-debug.log*
+/subgraph/yarn-debug.log*
+/subgraph/yarn-error.log*
+
+# subgraph - Optional npm cache directory
+/subgraph/.npm
+
+# subgraph - Optional eslint cache
+/subgraph/.eslintcache
+
+# subgraph - dotenv environment variables file
+/subgraph/.env
+
+# subgraph - Testing
+/subgraph/coverage
+/subgraph/coverage.json
+
+# subgraph - Typechain
+/subgraph/typechain
+/subgraph/typechain-types
+
+# subgraph - Hardhat files
+/subgraph/cache
