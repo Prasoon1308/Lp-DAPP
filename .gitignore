@@ -51,3 +51,44 @@ node_modules
 
 # subgraph - Hardhat files
 /subgraph/cache
+
+
+# frontend - dependencies
+/dapp-frontend/node_modules
+/dapp-frontend/.pnp
+/dapp-frontend/.pnp.*
+/dapp-frontend/.yarn/*
+/dapp-frontend/!.yarn/patches
+/dapp-frontend/!.yarn/plugins
+/dapp-frontend/!.yarn/releases
+/dapp-frontend/!.yarn/versions
+
+# frontend - testing
+/dapp-frontend/coverage
+
+# frontend - next.js
+/dapp-frontend/.next/
+/dapp-frontend/out/
+
+# frontend - production
+/dapp-frontend/build
+
+# frontend - misc
+/dapp-frontend/.DS_Store
+/dapp-frontend/*/.pem
+
+# frontend - debug
+/dapp-frontend/npm-debug.log*
+/dapp-frontend/yarn-debug.log*
+/dapp-frontend/yarn-error.log*
+/dapp-frontend/.pnpm-debug.log*
+
+# frontend - env files (can opt-in for committing if needed)
+/dapp-frontend/.env*
+
+# frontend - vercel
+/dapp-frontend/.vercel
+
+# frontend - typescript
+/dapp-frontend/*.tsbuildinfo
+/dapp-frontend/next-env.d.ts
